@@ -29,6 +29,7 @@ function populateDOM() {
     document.getElementById('profile-description').textContent = cardData.profile.description;
 
     // 3. Acciones Rápidas (USANDO EL DICCIONARIO)
+
     const quickActionsContainer = document.getElementById('quick-actions');
     const waUrl = `https://wa.me/${cardData.contact.phone}?text=${encodeURIComponent(cardData.contact.whatsappMessage)}`;
     
@@ -36,7 +37,6 @@ function populateDOM() {
         <a href="${waUrl}" target="_blank" class="action-btn" aria-label="WhatsApp">${LUCIDE_ICONS.whatsapp}</a>
         <a href="tel:+${cardData.contact.phone}" class="action-btn" aria-label="Llamar">${LUCIDE_ICONS.phone}</a>
         <a href="mailto:${cardData.contact.email}" class="action-btn" aria-label="Email">${LUCIDE_ICONS.mail}</a>
-        <a href="https://${cardData.contact.url.replace('https://','')}" target="_blank" class="action-btn" aria-label="Web">${LUCIDE_ICONS.globe}</a>
     `;
 
     // 4. Redes Sociales (USANDO EL DICCIONARIO)
