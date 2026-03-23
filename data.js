@@ -6,7 +6,7 @@ const cardData = {
         // La imagen que se cargará, sube tu logo a la carpeta assets/img/felipelarrea.png
         image: "assets/img/podovyda.png",
         // Imagen de respaldo si no encuentra la principal
-        fallbackImage: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=256&h=256"
+        fallbackImage: "assets/img/podovyda.png"
     },
     contact: {
         phone: "593984344164", // Solo números y código de país, usado para enlaces de WhatsApp y llamada
