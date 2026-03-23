@@ -363,8 +363,8 @@ body {
 .staggered-5 { animation-delay: 0.5s; }
 
 .map-section {
-    padding: var(--spacing-base);
-    text-align: center;
+    opacity: 1 !important;
+    display: block !important;
 }
 
 .section-title {

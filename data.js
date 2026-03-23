@@ -17,7 +17,7 @@ const cardData = {
         note: "Clínica Podológica",
         url: "www.podovyda.com",
         address: "Calle Río Chimbo y Echandía, Santo Domingo, Ecuador", // Texto para SEO
-        googleMapsIframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d352.6500190630828!2d-79.16343965067671!3d-0.2526918803426913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d54653d5535f29%3A0x36ef1819ac7d4bd0!2sC.%20Echandia%20%26%20C.%20Rio%20Chimbo%2C%20Santo%20Domingo!5e0!3m2!1ses!2sec!4v1774041092589!5m2!1ses!2sec"
+        googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d352.6500190630828!2d-79.16343965067671!3d-0.2526918803426913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d54653d5535f29%3A0x36ef1819ac7d4bd0!2sC.%20Echandia%20%26%20C.%20Rio%20Chimbo%2C%20Santo%20Domingo!5e0!3m2!1ses!2sec!4v1774041092589!5m2!1ses!2sec"
     },
     social: [
         { name: "Instagram", url: "https://www.instagram.com/podovyda/", icon: "instagram" },

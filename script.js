@@ -54,6 +54,11 @@ function populateDOM() {
     // 5. Iconos en botones estáticos
     document.getElementById('save-contact-btn').insertAdjacentHTML('afterbegin', LUCIDE_ICONS['user-plus']);
     document.getElementById('share-btn').insertAdjacentHTML('afterbegin', LUCIDE_ICONS.share);
+    const mapIframe = document.getElementById('google-map');
+    if (mapIframe && cardData.contact.googleMapsEmbed) {
+         mapIframe.src = cardData.contact.googleMapsEmbed;
+    }
+
 }
 
 /**
