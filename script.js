@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 await navigator.share({
                     title: `${cardData.profile.name} - ${cardData.profile.title}`,
-                    text: `Aquí tienes la tarjeta digital de ${cardData.profile.name}.`,
+                    text: `Aquí tienes la tarjeta digital de ${cardData.profile.name}. /n`,
                     url: cardData.contact.url
                 });
             } catch (error) {
