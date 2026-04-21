@@ -3,7 +3,7 @@ const cardData = {
         name: "Fredy Urquizo",
         title: "Fotografía Profesional",
         description: "Fotógrafo especializado en documentar la magia de los XV años",
-        image: "assets/img/fredy-urquizo.png", // coloca aquí tu logo o foto
+        image: "assets/img/fotourquizo.jpeg", // coloca aquí tu logo o foto
         fallbackImage: "assets/img/fotourquizo.jpeg"
     },
     contact: {
